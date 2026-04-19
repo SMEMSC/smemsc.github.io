@@ -11,13 +11,12 @@
     <style>
         /* CSS Variables */
         :root {
-            --primary-dark: #0A2540;
-            --primary: #1565C0;
-            --primary-light: #1976D2;
-            --medical-red: #C62828;
-            --medical-red-light: #EF5350;
-            --accent: #D4A012;
-            --accent-light: #FFD54F;
+            --primary-dark: #1e293b;
+            --primary: #334155;
+            --primary-light: #475569;
+            --accent: #0d9488;
+            --accent-light: #14b8a6;
+            --accent-dark: #0f766e;
             --background: #F8FAFC;
             --surface: #FFFFFF;
             --text-primary: #1A202C;
@@ -173,13 +172,13 @@
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, var(--medical-red) 0%, var(--medical-red-light) 100%);
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
             color: white;
         }
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(198, 40, 40, 0.35);
+            box-shadow: 0 4px 12px rgba(13, 148, 136, 0.35);
         }
 
         .btn-outline {
@@ -246,7 +245,7 @@
         }
 
         .hero-title span {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--medical-red) 100%);
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -803,7 +802,7 @@
                         <div class="stat-label">Counties</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-value">40+</div>
+                        <div class="stat-value">80+</div>
                         <div class="stat-label">Agencies</div>
                     </div>
                     <div class="stat-item">
